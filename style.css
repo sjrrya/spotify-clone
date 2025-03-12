@@ -598,3 +598,28 @@ body {
    font-size: 14px;
    font-weight: 600;
 }
+.footer-sticky {
+   height: 7vh;
+   width: 100vw;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   background: linear-gradient(90deg, #af2896, #509bf5);
+}
+.footer-sticky div {
+   padding: 5px 0px 0px 19px;
+   line-height: 10px;
+} 
+.footer-sticky button {
+   margin: 5px 35px 0px 0px ;
+   padding: 8px 33px;
+   border-radius: 29px;
+   background-color: white;
+   font-size: 15px;
+   border: 1px solid transparent;
+   font-weight: 700;
+}
+.footer-sticky h6:hover,p:hover {
+   text-decoration: none;
+   cursor: none;
+}
